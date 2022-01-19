@@ -1,0 +1,100 @@
+CRITICAL - 2022-01-18 18:27:14 --> Undefined variable $title
+#0 C:\xampp\htdocs\projs\test\app\Views\view_sorted.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\projs\test\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projs\test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projs\test\system\Common.php(1089): CodeIgniter\View\View->render('view_sorted', Array, true)
+#4 C:\xampp\htdocs\projs\test\app\Controllers\Home.php(53): view('view_sorted', Array)
+#5 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#6 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 21:26:50 --> Undefined constant "App\Controllers\j"
+#0 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#1 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 21:26:53 --> syntax error, unexpected identifier "i", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\projs\test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projs\test\system\Common.php(1089): CodeIgniter\View\View->render('view_sorted', Array, true)
+#2 C:\xampp\htdocs\projs\test\app\Controllers\Home.php(101): view('view_sorted', Array)
+#3 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->selection()
+#4 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 21:27:01 --> syntax error, unexpected identifier "i", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\projs\test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projs\test\system\Common.php(1089): CodeIgniter\View\View->render('view_sorted', Array, true)
+#2 C:\xampp\htdocs\projs\test\app\Controllers\Home.php(101): view('view_sorted', Array)
+#3 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->selection()
+#4 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 21:28:18 --> Undefined constant "App\Controllers\j"
+#0 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#1 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 21:29:03 --> Undefined constant "App\Controllers\j"
+#0 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#1 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 21:29:23 --> Undefined constant "App\Controllers\j"
+#0 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#1 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 21:29:36 --> Undefined constant "App\Controllers\j"
+#0 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#1 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 21:30:32 --> syntax error, unexpected identifier "i", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\projs\test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projs\test\system\Common.php(1089): CodeIgniter\View\View->render('view_sorted', Array, true)
+#2 C:\xampp\htdocs\projs\test\app\Controllers\Home.php(74): view('view_sorted', Array)
+#3 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#4 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-18 21:30:48 --> Unsupported operand types: array - int
+#0 C:\xampp\htdocs\projs\test\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projs\test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projs\test\system\Common.php(1089): CodeIgniter\View\View->render('view_sorted', Array, true)
+#3 C:\xampp\htdocs\projs\test\app\Controllers\Home.php(74): view('view_sorted', Array)
+#4 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#5 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-18 21:33:20 --> Undefined variable $title
+#0 C:\xampp\htdocs\projs\test\app\Views\view_sorted.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\projs\test\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projs\test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projs\test\system\Common.php(1089): CodeIgniter\View\View->render('view_sorted', Array, true)
+#4 C:\xampp\htdocs\projs\test\app\Controllers\Home.php(74): view('view_sorted', Array)
+#5 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(825): App\Controllers\Home->bubble()
+#6 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projs\test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projs\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projs\test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
