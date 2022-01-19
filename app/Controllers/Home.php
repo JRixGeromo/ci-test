@@ -14,7 +14,7 @@ class Home extends BaseController
         $array = array(25,11,96,99,50,35);
         $original = $array;
         for ($i = 0; $i < sizeof($array) - 1; $i++) {
-            for ($j = 0 ; $j < sizeof($array) - 1; $j++) {
+            for ($j = 0 ; $j < sizeof($array) - $i - 1; $j++) {
                 if ($array[$j] > $array[$j+1]) {
                     $temp           = $array[$j];
                     $array[$j]      = $array[$j + 1];
